@@ -23,5 +23,6 @@ module TweetApp
     # -- all .rb files in that directory are automatically loaded.
     config.time_zone = 'Jakarta'
     config.i18n.default_locale = :en
+    config.assets.enabled = true
   end
 end
