@@ -15,9 +15,9 @@ gem 'turbolinks', '5.0.1'
 gem 'bcrypt', '3.1.11'
 
 gem 'web-console', '3.4.0', group: :development
+gem 'sqlite3', '1.3.13'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.13'
   gem 'byebug', '9.0.6', platform: :mri
 
   gem 'listen', '3.0.8'
